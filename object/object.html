@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+
+        var a = {
+            fname: 'yahoo',
+            Lname: 'Baba',
+            age : 25,
+            email: 'hello345@gmail.com',
+            favMovies: ['Dhoom','shaloy','Hum'],
+            salary: function() {
+                return 25000;
+            },
+            Fullname: function() {
+                return this.fname+" "+ this.Lname;
+            }
+        }
+        console.log(a);
+        document.write(a.Fullname());
+        
+    </script>
+    
+</body>
+</html>

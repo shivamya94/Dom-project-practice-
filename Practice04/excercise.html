@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice</title>
+</head>
+<body>
+    <script>
+        function isOdd(number) {
+            let rem = number % 2;
+            let isOdd = rem == 1;
+            return isOdd;
+         }
+        // console.log(isOdd(23));
+        // console.log(isOdd(34));
+        // console.log(isOdd(222));
+        function Larger(num1,num2){
+            // if(num1 > num2) {
+            //     return num1;
+            // }else{
+            //     return num2;
+            // }
+            return num1 > num2 ? num1 : num2;
+        }
+        // console.log(Larger(4,6));
+        //Q-> Create a method to convert celcius to fahrenheit
+        function toFahrenheit(celsiusValue) {
+            return 9/5 * celsiusValue + 32;
+        }
+        
+        console.log(toFahrenheit(38));
+        console.log(toFahrenheit(34));
+        console.log(toFahrenheit(100));
+        
+        
+    </script>
+    
+</body>
+</html>
